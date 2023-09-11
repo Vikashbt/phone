@@ -1,0 +1,137 @@
+.iphone{
+    margin: auto;
+    border: 10px solid black;
+    border-radius: 40px;
+    width: 320px;
+    height: 700px;
+    position: relative;
+    box-shadow: 0px 20px 15px #33333335;
+}
+.screen{
+    z-index: 10;
+    position: absolute;
+    background: url('https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.icons{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.icons div{
+    margin: 10px;
+    z-index: 100;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 15px;
+    box-shadow: 0px 5px 5px #33333340;
+    cursor: pointer;
+    transform: transform 400ms ease-in-out;
+}
+.app:nth-child(1){
+    background-image: url('https://deadline.com/wp-content/uploads/2022/08/Netflix_Symbol_logo.jpg');
+    background-size: cover;
+}
+.app:nth-child(2){
+    background-image: url('https://store-images.s-microsoft.com/image/apps.1070.14281583492175081.0ddac3b2-54e4-4262-baec-b2867a2d465d.fb1e2dbd-aa34-427b-9a0a-469b27b00e15?mode=scale&q=90&h=225&w=150');
+    background-size: cover;
+    background-position: center;
+}
+.app:nth-child(3){
+    background-image: url('https://play-lh.googleusercontent.com/SX2PpsJA9ETtUB0KpGfFDmp1gHkho1EXzuP4gcyOHgEb_k8DLPSlEmYbKt7oDZ_DNQ');
+    background-size: cover;
+}
+.app:nth-child(4){
+    background-image: url('https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4');
+    background-size: cover;
+    background-position: center;
+}
+.app_2_row:nth-child(1){
+    background-image: url('https://img.freepik.com/free-icon/ebay_318-674223.jpg');
+    background-size: cover;
+}
+.app_2_row:nth-child(2){
+    background-image: url('http://store-images.s-microsoft.com/image/apps.28979.14000086426835264.05540350-b3f7-48e4-8031-643585bec41b.6dbc2144-7664-4061-aa19-62fcff1732d9');
+    background-size: cover;
+    background-position: center;
+}
+.app_2_row:nth-child(3){
+    background-image: url('https://cdn.vox-cdn.com/thumbor/J5qg1LLvKq1DGwrfbahJcnI7-vU=/0x0:2040x1360/1400x1400/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/19218416/acastro_190920_1777_amazon_0002.0.jpg');
+    background-size: cover;
+}
+.app_2_row:nth-child(4){
+    background-image: url('https://etimg.etb2bimg.com/photo/76024879.cms');
+    background-size: cover;
+    background-position: center;
+}
+.app_3_row:nth-child(1){
+    background-image: url('https://play-lh.googleusercontent.com/LByrur1mTmPeNr0ljI-uAUcct1rzmTve5Esau1SwoAzjBXQUby6uHIfHbF9TAT51mgHm');
+    background-size: cover;
+}
+.app_3_row:nth-child(2){
+    background-image: url('https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/6e/16/b86e16f8-6317-4711-adb0-f6449f64ea49/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png');
+    background-size: cover;
+    background-position: center;
+}
+.app_3_row:nth-child(3){
+    background-image: url('https://www.liveabout.com/thmb/9guJYsSNlPm1nN8QTUQSxGUusio=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-917034570-5ad2aea3642dca003605302b.jpg');
+    background-size: cover;
+}
+.app_3_row:nth-child(4){
+    background-image: url('https://newsimg.giznext.com/mobile/production/news/wp-content/uploads/2022/08/20124311/Call-of-Duty.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.app_4_row:nth-child(1){
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1200px-Facebook_f_logo_%282021%29.svg.png');
+    background-size: cover;
+}
+.app_4_row:nth-child(2){
+    background-image: url('https://play-lh.googleusercontent.com/ldcQMpP7OaVmglCF6kGas9cY_K0PsJzSSosx2saw9KF1m3RHaEXpH_9mwBWaYnkmctk');
+    background-size: cover;
+    background-position: center;
+}
+.app_4_row:nth-child(3){
+    background-image: url('https://pbs.twimg.com/profile_images/1318652224638124032/wrpp2Nl4_400x400.png');
+    background-size: cover;
+}
+.app_4_row:nth-child(4){
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.icons div:hover{
+    transform: scale(0.8);
+}
+.notch{
+    z-index: 50;
+    top: 0;
+    left: 62px;
+    position: absolute;
+    background: #000000;
+    width: 200px;
+    height: 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+.camera{
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: .2rem solid #1e1f22;
+    background: #447bb5a6;
+}
+.speaker{
+    position: absolute;
+    right: 3.9rem;
+    width: 5.2rem;
+    height: .6rem;
+    background: #333333;
+    border-radius: .2rem;
+}
